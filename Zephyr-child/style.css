@@ -1,0 +1,140 @@
+/*
+Theme Name: Zephyr Child
+Template: Zephyr
+Version: 1.0
+Author:	UpSolution
+Theme URI: http://zephyr.us-themes.com/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+
+.l-subheader.at_top a{
+    color: #000;
+    font-size: 12px;
+}
+
+.l-subheader.at_top a i{
+    font-size: 14px;
+}
+.info-icon {
+    line-height: inherit;
+    margin-right: 5px;
+}
+.blog .l-section {
+    padding-top: 0 !important;
+}
+.l-subfooter.at_top {
+    padding-top: 0px;
+    padding-top: 0px;
+    box-shadow: none;
+}
+.l-subfooter.at_top .l-subfooter-h {
+    border-top: transparant  1px solid;
+    padding-top: 30px;
+    font-size: 14px;
+}
+.l-subfooter.at_top .l-subfooter-h p {
+    margin-bottom: 10px;
+}
+.l-subfooter.at_bottom {
+    text-align: left;
+    font-size: 13px;
+}
+div.l-subheader-cell.at_right > div:hover .w-dropdown-list, .w-dropdown-item, .w-dropdown-item-title {
+	display: block !important;
+}
+div.w-person-content {
+	position: relative;
+	z-index: 50;
+	margin-top: -130px;
+	padding:0;
+}
+div.w-person-content a {
+	color: white !important;
+}
+div.w-person-image {
+	position: relative;
+	z-index: 10;
+}
+div.w-person-image a img {
+	filter: brightness(0.5);
+}
+.page-id-140 div.l-canvas.sidebar_none.type_wide > div.l-main > div > main > section:nth-child(2) > div {
+	height: 300px;
+	padding: 0 !important;
+}
+.page-id-140 div.l-canvas.sidebar_none.type_wide > div.l-main > div > main > section:nth-child(3) > div {
+	height: 300px;
+	padding: 0 !important;
+}
+.page-id-140 div.l-canvas.sidebar_none.type_wide > div.l-main > div > main > section:nth-child(4) > div {
+	height: 300px;
+	padding: 0 !important;
+}
+.page-id-140 div.l-canvas.sidebar_none.type_wide > div.l-main > div > main > section:nth-child(5) > div {
+	height:300px;
+	padding: 0 !important;
+	margin-bottom: 50px;
+}
+.list-item 	{
+	display: block;
+	transition: 0.15s ease-in-out;
+}
+.list-item:hover {
+	transform: scale(1.25,1.25);
+}
+.w-person-description {
+	color: white;
+	transform: translateY(-10);
+	display: none;
+	transition: 0.3s ease-in-out;
+}
+.w-person-description:hover {
+	display: block !important;
+}
+#imgRowOne > li, #imgRowTwo > li, #imgRowThree > li, #imgRowFour > li {
+	list-style-type: none;
+	display: inline-block;
+}
+#imgRowOne img {
+	max-width: 252px;
+	float:left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	transition: 0.3s ease-in-out;
+}
+#imgRowOne > li:nth-of-type(1):before {
+	content:'Art & Design';
+	position:relative;
+	translateX(-30px);
+}
+#imgRowOne img:hover {
+	transform: scale(1.1,1.1);
+}
+.list-item {
+	background-color: black;
+	position: relative;
+	margin:20px;
+}
+.list-thumbnail {
+	display:block;
+	opacity:0.5;
+}
+.list-title {
+	display:block;
+	padding:10px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+.list-row {
+	margin:-20px;
+}
