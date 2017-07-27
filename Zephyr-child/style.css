@@ -9,6 +9,13 @@ Author URI: http://us-themes.com/
 
 /*Add your own styles here:*/
 
+h2 {font-weight: 500 !important;}
+h6 {letter-spacing: 0 !important;}
+
+/* Remove header shadow */
+.header_hor .l-subheader.at_middle, .header_hor .l-subheader.at_bottom {
+	box-shadow: none;
+}
 .l-subheader.at_top a{
     color: #000;
     font-size: 12px;
@@ -23,6 +30,9 @@ Author URI: http://us-themes.com/
 }
 .blog .l-section {
     padding-top: 0 !important;
+}
+.l-footer {
+	box-shadow: none;
 }
 .l-subfooter.at_top {
     padding-top: 0px;
@@ -137,4 +147,395 @@ div.w-person-image a img {
 }
 .list-row {
 	margin:-20px;
+}
+
+/* Reduce default row padding */
+.l-section.height_small>.l-section-h {
+	padding: 15px 0;
+}
+.l-sidebar {
+	padding-top: 25px;
+}
+
+/* hide title in titlebar */
+h1[itemprop="headline"]{
+	display: none !important;
+}
+.l-titlebar.size_small .l-titlebar-h, .l-titlebar.size_medium .l-titlebar-h{
+	display: block !important;
+	align-items: left !important;
+	flex-wrap: initial !important;
+	justify-content: flex-start !important;
+}
+
+
+
+/* menu styles */
+
+nav ul li {
+
+}
+.header_hor .ush_menu_1.type_desktop .w-nav-list.level_1 > .menu-item > a {
+	padding: 0 17px 0 38px !important;
+}
+/*** Menu icons ***/
+/* Subjects / My Subject icon */
+li.subject-item::before, #menu-item-376::before, #menu-item-142::before, #menu-item-141::before, #menu-item-679::before {
+	content: "";
+	position: absolute;
+	top: 38%;
+	left: 5px;
+	width: 29px;
+	height: 29px;
+	background-image: url('../../../wp-content/uploads/icon-subjects.png');
+	background-repeat: no-repeat;
+	z-index: 100;
+}
+/* Course Information icon */
+#menu-item-376::before {
+	background-image: url('../../../wp-content/uploads/icon-course-info-1.png');
+}
+/* Professional Studies icon */
+#menu-item-142::before {
+	background-image: url('../../../wp-content/uploads/icon-pro-studies-1.png');
+}
+/* Assessments icon */
+#menu-item-141::before {
+	background-image: url('../../../wp-content/uploads/icon-assessments-1.png');
+}
+/* Contact Us icon */
+#menu-item-679::before {
+	background-image: url('../../../wp-content/uploads/icon-contact-1.png');
+}
+
+
+.subjects-submenu ul {
+	list-style: none;
+	padding-left:0;
+	margin-left:0;
+}
+.subjects-submenu > ul > li > ul {
+	display: none;
+}
+.subjects-submenu > ul > .current-menu-item > ul {
+	display: block;
+}
+.menu .sub-menu {
+	margin-top: .5rem !important;
+	margin-left: 20px !important;
+}
+.w-nav-list.level_2 {
+	border: 1px solid #f8f8f8;
+	box-shadow: 0px 15px 16px 0px rgba (0, 0, 0, 0.1)
+}
+.menu .current-menu-item > a, .current-page-ancestor > a {
+	font-weight: 700;
+}
+.menu a {
+	color: #3d3d3d;
+}
+
+/* Styles for specific subject pages */
+.trainee-name {
+	display: block;
+	float: left;
+	width: 20%;
+}
+.trainee-email {
+	display: block;
+	float: left;
+	width: 80%;
+}
+.trainee-email a {
+	color: #3d3d3d !important;
+}
+.trainee-email a:hover {
+	color: #96c11f !important;
+}
+
+
+/* widget styles */
+body:not(.us_iframe) {
+	min-height: auto;
+}
+.l-main {
+	min-height:400px;
+}
+.at_right .widgettitle {
+	background: #eee;
+	font-size:14px;
+	line-height:25px;
+	height:65px;
+	padding:20px;
+	margin:0;
+	font-weight:700;
+}
+.at_right .widget {
+}
+.at_right .textwidget {
+	padding:20px;
+	font-size:14px;
+}
+.at_right .textwidget a {
+	/*font-weight: 700;*/
+	color: #7d7d7d;
+}
+.at_right .textwidget:empty{
+	display:none;
+}
+#us_form_1_s {
+	padding-left:20px;
+	padding-right: 20px;
+}
+.w-form-row-state {
+	padding-top:0;
+}
+.single-subject .subject-item > a.level_1 {
+	color:#ba1545;
+}
+.textwidget {
+	position: relative;
+}
+.textwidget p {
+	margin: 0;
+	color: #7d7d7d;
+}
+.textwidget .widgetavatarimage img {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50%;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 0px 0 10px;
+	-moz-box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+	box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+	position: absolute;
+	top: 0px;
+	left: -20px;
+}
+.textwidget h3.widgettitle a {
+	margin-top: 15px;
+	color: rgb(183, 30, 78);
+	font-weight: 700;
+	padding-left: 0 !important;
+}
+.textwidget h3.widgettitle:nth-of-type(1) {
+	padding-left: 65px !important;
+}
+#text-7 .textwidget h3.widgettitle {
+	padding-left: 0px !important;
+}
+.textwidget h3.subjectheader {
+	padding-left: 0px !important;
+}
+.textwidget .leader-title {
+	padding-top: 15px !important;
+	font-weight: 600;
+	color: #3d3d3d;
+}
+.textwidget a:hover {
+	color: #96c11f !important;
+}
+
+
+
+/* Recently updated */
+#recently_updated_widget-2 ul li:first-child {
+	padding-top: 20px;
+}
+#recently_updated_widget-2 ul li {
+	padding-left: 20px;
+	margin: 0;
+}
+#recently_updated_widget-2 ul li a {
+	color: #7d7d7d;
+}
+#recently_updated_widget-2 ul li a:hover {
+	color: #96c11f !important;
+}
+
+
+/* Try to add bootstrap breakpoint */
+@media screen and (max-width: 991px) {
+	.header_ver.header-show {
+		overflow:hidden
+	}
+
+	.header_ver .w-header-show {
+		display: block
+	}
+
+	.header_ver.admin-bar .w-header-show {
+		top: 56px
+	}
+
+	.header_ver .l-header {
+		bottom: 0;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+		box-shadow: 4px 0 5px -2px rgba(0,0,0,0),2px 0 1px -1px rgba(0,0,0,0);
+		transition: transform 0.3s,box-shadow 0.3s;
+		-webkit-transform: translate3d(-100%,0,0);
+		transform: translate3d(-100%,0,0)
+	}
+
+	.header_ver.header-show .l-header {
+		box-shadow: 4px 0 5px -2px rgba(0,0,0,.1),2px 0 1px -1px rgba(0,0,0,.05);
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0)
+	}
+
+	.header_ver .l-canvas:after {
+		content: '';
+		position: fixed;
+		z-index: 110;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		visibility: hidden;
+		pointer-events: none;
+		background-color: rgba(0,0,0,0);
+		transition: all 0.3s
+	}
+
+	.header_ver.header-show .l-canvas:after {
+		visibility: visible;
+		pointer-events: auto;
+		background-color: rgba(0,0,0,.75)
+	}
+
+	.header_hor .l-subheader {
+		padding-left: 15px!important;
+		padding-right: 15px!important
+	}
+
+	.l-header.bg_transparent~.l-titlebar.size_large,.l-header.bg_transparent~.l-titlebar.size_huge {
+		padding-bottom: 0
+	}
+
+	.l-sidebar,.l-content {
+		float: none!important;
+		width: 100%!important
+	}
+
+	.w-nav.type_desktop [class*="columns"] .w-nav-list.level_2,.w-nav.type_desktop [class*="columns"] .w-nav-item.level_2 {
+		padding: 0
+	}
+
+	.w-nav.type_desktop [class*="columns"] .w-nav-item.menu-item-has-children.level_2 {
+		margin: 10px 0
+	}
+
+	.w-nav.type_desktop .columns_3 .w-nav-item.level_2,.w-nav.type_desktop .columns_4 .w-nav-item.level_2,.w-nav.type_desktop .columns_5 .w-nav-item.level_2 {
+		width: 50%
+	}
+
+	.l-section.preview_modern .w-blog:after {
+		height: 100%
+	}
+
+	.sidebar_none .l-header.bg_transparent.pos_static+.l-main .l-section.preview_trendy .w-blog {
+		padding-top: 10%
+	}
+
+	.w-testimonials.cols_3 .w-testimonial,.w-testimonials.cols_5 .w-testimonial {
+		width: 50%
+	}
+
+	.owl-carousel {
+		padding: 0!important
+	}
+
+	.owl-nav {
+		display: none
+	}
+
+	.mfp-container:after {
+		font-size: 42px;
+		line-height: 60px;
+		width: 60px
+	}
+
+	.wpb_column.wooproduct,.woocommerce .products .product {
+		width: 50%!important
+	}
+
+	.woocommerce-checkout #customer_details,.woocommerce-checkout #order_review_heading,.woocommerce-checkout #order_review {
+		float: none;
+		width: auto
+	}
+}
+
+
+
+/* Required design style additions */
+.i-cf {padding: 20px 0;}
+.wpb_wrapper h5::before {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	background: #333;
+}
+
+/* IE header fix? */
+.l-subheader-cell {
+	align-items: flex-start;
+}
+.w-nav{
+	float:left;
+}
+.ush_html_1 {
+	float:right;
+	height:100%;
+	top:60px;
+	position:relative;
+	transition: top 0.31s;
+}
+
+.l-subheader-cell.at_left{
+	float:left;
+	height:100%;
+	position: relative;
+	top: 20%;
+}
+.sticky .ush_html_1{
+	top: 35px;
+}
+.sticky .l-subheader-cell.at_left{
+	top: 10%;
+}
+.l-subheader-cell.at_right{
+	float:right
+}
+.ush_menu_1.type_desktop .w-nav-list.level_1 > .menu-item > a, .ush_menu_1.type_desktop [class*="columns"] .menu-item-has-children .w-nav-anchor.level_2{
+	font-size: 14px !important;
+}
+
+/* Document link styles */
+.vc-doc-wrap a{
+	background-color: #666;
+	color: #fff;
+	display: inline-block;
+	padding-right:20px;
+	margin-bottom:20px;
+}
+.vc-doc-wrap a:hover{
+	background-color: #000;
+	color: #fff !important;
+	display: inline-block;
+	padding-right:20px;
+}
+
+.vc-doc-wrap span{
+	background-color:#fff;
+	border: 1px solid #ccc;
+	overflow:hidden;
+	height:50px;
+	width:50px;
+	margin-right:20px;
+	vertical-align: middle;
+	display:inline-block;
+	background-size: cover;
+	background-position: center top;
 }

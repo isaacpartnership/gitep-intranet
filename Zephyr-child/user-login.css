@@ -1,0 +1,106 @@
+/* Styles which can be used to override defaults where needed */
+body.login {}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog a {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+
+/* Override the default Wordpress logo */
+body.login div#login h1 {
+    background-image: url(gitep-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    padding-bottom: 20px;
+}
+body.login div#login h1 a {background: none;}
+
+/* Style the entire login section containing the username, password & login button */
+body.login div#login form#loginform,
+body.login div#login form#lostpasswordform {
+    position: relative;
+    box-shadow: 0px 0px 15px #aaa;
+    padding-top: 80px;
+}
+body.login div#login form#lostpasswordform {padding-top: 20px;}
+/* Add the multi-colou#ba1545 bottom border */
+body.login div#login form#loginform::after, body.login div#login form#lostpasswordform::after {
+    background: #96c11f; /* For browsers that do not support gradients (just shows solid colour) */
+    background: -webkit-linear-gradient(0deg, #96c11f 20%, #26348b 20%, #26348b 40%,#82358c 40%, #82358c 60%, #ba1545 60%, #ba1545 80%, #f39200 80% ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #96c11f 20%, #26348b 20%, #26348b 40%,#82358c 40%, #82358c 60%, #ba1545 60%, #ba1545 80%, #f39200 80%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #96c11f 20%, #26348b 20%, #26348b 40%,#82358c 40%, #82358c 60%, #ba1545 60%, #ba1545 80%, #f39200 80%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#96c11f 20%, #26348b 20%, #26348b 40%,#82358c 40%, #82358c 60%, #ba1545 60%, #ba1545 80%, #f39200 80%); /* Standard syntax (must be last) */
+    position: absolute;
+    content: '';
+    height: 6px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+/* Style the username & password form input fields */
+body.login div#login form#loginform input#user_login,
+body.login div#login form#loginform input#user_pass,
+body.login div#login form#loginform input#user_login:focus,
+body.login div#login form#loginform input#user_pass:focus,
+body.login div#login form#lostpasswordform input#user_login,
+body.login div#login form#lostpasswordform input#user_login:focus
+{
+    border: 0;
+    border-bottom: 2px solid #96c11f;
+    background: #fff;
+}
+body.login div#login form#loginform input[type=text],
+body.login div#login form#lostpasswordform input[type=text],
+body.login div#login form#loginform input[type=password] {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+    font-size: 16px;
+}
+
+
+/* Style the default login button */
+body.login div#login form#loginform p.submit input#wp-submit,
+body.login div#login form#lostpasswordform p.submit input#wp-submit {
+    float:left;
+    background-color: #96c11f;
+    color: #ffffff;
+    border: 0;
+    padding: 0 20px;
+    box-shadow: none;
+    text-shadow: none;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* change the position & style of the "remember me" text, as we're using it for a header text instead */
+body.login div#login form#loginform p.forgetmenot label {
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    font-size: 18px;
+    cursor: default;
+}
+
+/* change the position & style of the "remember me" text, as we're using it for a header text instead */
+body.login .message {
+    border-left: 4px solid #96c11f;
+}
+
+
+/* Hide the Login with Google button, as well as various other links & text */
+body.login div#login form#loginform .galogin,
+body.login div#login p#backtoblog,
+body.login div#login p#nav,
+body.login div#login form#loginform p.forgetmenot input
+{display: none;}
+
+
+

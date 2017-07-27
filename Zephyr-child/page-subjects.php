@@ -21,7 +21,7 @@ us_load_template( 'templates/titlebar' );
 
 				$the_content = apply_filters( 'the_content', get_the_content() );
 
-				// The page may be paginated itself via <!--nextpage--> tags
+				# The page may be paginated itself via <!--nextpage--> tags
 				$pagination = us_wp_link_pages(
 					array(
 						'before' => '<div class="w-blog-pagination"><nav class="navigation pagination">',
@@ -35,20 +35,25 @@ us_load_template( 'templates/titlebar' );
 					)
 				);
 
-				// If content has no sections, we'll create them manually
+				# If content has no sections, we'll create them manually
 				$has_own_sections = ( strpos( $the_content, ' class="l-section' ) !== FALSE );
-				if ( ! $has_own_sections ) {
+				if ( ! $has_own_sections )
+				{
 					$the_content = '<section class="l-section"><div class="l-section-h i-cf">' . $the_content . $pagination . '</div></section>';
-				} elseif ( ! empty( $pagination ) ) {
+				}
+				elseif ( ! empty( $pagination ) )
+                {
 					$the_content .= '<section class="l-section"><div class="l-section-h i-cf">' . $pagination . '</div></section>';
 				}
 
 				echo $the_content;
 
-				// Post comments
-				if ( comments_open() OR get_comments_number() != '0' ) {
-					// Hotfix for events calendar plugin
-					if ( ! is_post_type_archive( 'tribe_events' ) ) {
+				# Post comments
+				if ( comments_open() OR get_comments_number() != '0' )
+				{
+					# Hotfix for events calendar plugin
+					if ( ! is_post_type_archive( 'tribe_events' ) )
+					{
 						?>
 						<section class="l-section for_comments">
 						<div class="l-section-h i-cf"><?php
@@ -65,7 +70,7 @@ us_load_template( 'templates/titlebar' );
 
 
 <section class="l-section wpb_row height_small"><div class="l-section-h i-cf"><div class="g-cols list-row">
-<?php $loop = new WP_Query( array( 'post_type' => 'subject', 'orderby' => 'menu_order title', 'order' => 'ASC', 'posts_per_page' => -1 ) ); ?>
+<?php $loop = new WP_Query( array( 'post_type' => 'subject', 'post_parent' => 0, 'orderby' => 'menu_order title', 'order' => 'ASC', 'posts_per_page' => -1 ) ); ?>
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 	<div class="vc_col-xs-4 vc_col-sm-3 vc_col-md-3 vc_col-lg-3">
         <a href="<?php echo get_permalink($post); ?>" class="list-item">
