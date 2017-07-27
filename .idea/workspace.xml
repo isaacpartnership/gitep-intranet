@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7796d9-d81e-4b1a-81d8-b076c0496710" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/footer-styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/gitep-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/js/vc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/single-subject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/subject_functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/templates/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/templates/l-header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/user-login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zephyr-child/user-login.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zephyr-child/functions.php" afterPath="$PROJECT_DIR$/Zephyr-child/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zephyr-child/page-subjects.php" afterPath="$PROJECT_DIR$/Zephyr-child/page-subjects.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zephyr-child/style.css" afterPath="$PROJECT_DIR$/Zephyr-child/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +15,18 @@
     <pharPath>/usr/bin/composer7.1-sp</pharPath>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Zephyr-child/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,8 +93,8 @@
         <option value="$USER_HOME$/Library/Caches/Cleanup At Startup/Transmit/D511CECD-1944-4AAF-8EFF-7BC47195D4BC/backend.min.js" />
         <option value="$PROJECT_DIR$/Zephyr-child/js/vc.js" />
         <option value="$PROJECT_DIR$/Zephyr-child/subject_functions.php" />
-        <option value="$PROJECT_DIR$/Zephyr-child/style.css" />
         <option value="$USER_HOME$/Desktop/Limepoison/html/wp-config.php" />
+        <option value="$PROJECT_DIR$/Zephyr-child/style.css" />
       </list>
     </option>
   </component>
@@ -190,6 +186,11 @@
               <item name="gitep-intranet" type="b2602c69:ProjectViewProjectNode" />
               <item name="gitep-intranet" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="gitep-intranet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitep-intranet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Zephyr-child" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -247,12 +248,12 @@
       <workItem from="1500540009778" duration="503000" />
       <workItem from="1500562722125" duration="6000" />
       <workItem from="1500907323014" duration="9000" />
-      <workItem from="1501167988006" duration="283000" />
+      <workItem from="1501167988006" duration="503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75931000" />
+    <option name="totallyTimeSpent" value="76151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,6 +266,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="664" y="23" width="1858" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3116254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -272,7 +274,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.075642966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.075642966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -356,6 +358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -391,6 +394,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -419,6 +423,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -433,6 +438,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -600,6 +606,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="170" column="22" lean-forward="true" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -618,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zephyr-child/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
-          <caret line="403" column="34" lean-forward="false" selection-start-line="403" selection-start-column="34" selection-end-line="403" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/wordpress/wp-includes/class-wp-image-editor-imagick.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -636,6 +636,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zephyr-child/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
